@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[存文字]]></title>
+  <link href="http://gamestu.github.io/atom.xml" rel="self"/>
+  <link href="http://gamestu.github.io/"/>
+  <updated>2014-01-14T01:10:11+08:00</updated>
+  <id>http://gamestu.github.io/</id>
+  <author>
+    <name><![CDATA[黃文彥]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
