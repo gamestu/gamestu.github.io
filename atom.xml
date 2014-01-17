@@ -4,7 +4,7 @@
   <title><![CDATA[存．文字]]></title>
   <link href="http://gamestu.github.io/atom.xml" rel="self"/>
   <link href="http://gamestu.github.io/"/>
-  <updated>2014-01-17T11:16:07+08:00</updated>
+  <updated>2014-01-17T18:11:02+08:00</updated>
   <id>http://gamestu.github.io/</id>
   <author>
     <name><![CDATA[黃文彥]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[開啓iOS上的開發人員選項]]></title>
+    <link href="http://gamestu.github.io/blog/2014/01/17/enable-ios-developer-mode/"/>
+    <updated>2014-01-17T15:14:17+08:00</updated>
+    <id>http://gamestu.github.io/blog/2014/01/17/enable-ios-developer-mode</id>
+    <content type="html"><![CDATA[<p>因為開發Web App的關係，想要知道在網路不穩（例如捷運上）的時候程式會怎麼運作，但是通常網路環境要嘛是很順暢，要嘛是完全沒訊號，總不能為了模擬「斷斷續續的網路環境」帶著電腦上捷運測試吧。</p>
+
+<p>後來發現iOS有提供「開發人員」選項，可以模擬各種環境。但一般機器是找不到這個選項的，到底該怎麼打開呢？</p>
+
+<ol>
+<li>首先打開Mac上的Xcode。</li>
+<li>將iPhone/iPad接上Mac。</li>
+<li>會打開Organizer的頁面，左邊會列出你擁有的裝置。</li>
+<li>選擇你的iPhone/iPad，點擊<strong>enable Developer mode</strong></li>
+<li>打開iPhone/iPad的「設定」，就會看到「開發人員」選項了。</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[EPUB編輯的動亂時代]]></title>
