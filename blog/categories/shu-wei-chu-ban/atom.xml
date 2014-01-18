@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 數位出版 | 存．文字]]></title>
   <link href="http://gamestu.github.io/blog/categories/shu-wei-chu-ban/atom.xml" rel="self"/>
   <link href="http://gamestu.github.io/"/>
-  <updated>2014-01-17T18:11:02+08:00</updated>
+  <updated>2014-01-18T17:05:30+08:00</updated>
   <id>http://gamestu.github.io/</id>
   <author>
     <name><![CDATA[黃文彥]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[免費好用的EPUB Validator - pagina EPUB-Checker]]></title>
+    <link href="http://gamestu.github.io/blog/2014/01/18/free-epub-validator/"/>
+    <updated>2014-01-18T16:17:24+08:00</updated>
+    <id>http://gamestu.github.io/blog/2014/01/18/free-epub-validator</id>
+    <content type="html"><![CDATA[<p>從EPUB2時代開始，我就一直說讓EPUB能夠通過驗證很重要。現在是更重要了，因為沒有通過驗證的話，是沒辦法將EPUB送到iBookstore或Google上架的。</p>
+
+<p>EPUB2時代，使用Sigil就有內建idpf提供的Validator，按一下就好了，非常方便。但在EPUB3的時代，Sigil就不是個可用的工具，所以如果有一個單純的工具專門做驗證就好了。</p>
+
+<p>於是我找到這個工具，<a href="http://www.pagina-online.de/produkte/epub-checker/" title="pagina EPUB-Checker">pagina EPUB-Checker</a>，免費，穩定，跨平台（提供Mac/Linux/Windows版本）。使用上也非常方便，把做好的EPUB檔拉近程式的框框中就好了。</p>
+
+<p>當然目標「不要做出不能通過validator」的EPUB檔，但以目前的情況來看，有許多軟體本身就還達不到這個標準，而且有時候不得不處理「別人不知道用什麼工具做出來的EPUB檔」，所以一個不依賴任何軟體的validator仍是一個必需的工具，它能夠幫你將問題單純化，任何奇怪的檔案到你手上都可以診斷出問題所在。</p>
+
+<p>其他Validator：</p>
+
+<ol>
+<li><a href="http://validator.idpf.org/" title="IDPF EPUB Validator">IDPF EPUB Validator</a>：算是正宗的，可以從這裡載到validator的原始碼。此外也提供網頁介面供人使用。但限制是有10mb的限制，圖比較多的檔案就會超過。此外，如果是商業使用的檔案，建議不要使用。</li>
+<li><a href="http://validator.cloudapp.net/">台灣數位出版聯盟提供的Validator服務</a>：跟IDPF提供的一樣，有將錯誤訊息做了中文化，如果看不懂英文可以使用。一樣是web服務，所以建議商業檔案還是儘量不要用吧。</li>
+<li><a href="https://itunes.apple.com/au/app/epub-checker/id453480324?mt=12">ePub Checker</a>：是個付費Mac App，原本是打算使用這款，但是Mac升級到Maverick之後就掛掉了Orz。後來發現pagina EPUB-Checker可以完全取代它的功能（還免費），就跟他說掰掰了。</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[EPUB編輯的動亂時代]]></title>
@@ -124,38 +148,6 @@
 <p>可想而知，這些錯誤還會繼續在各家電子書平台流竄，假設未來有iBook Store、Amazon等國外電子書平台在台灣開張，這些錯字還會在那。</p>
 
 <p>只能說一句，這是個到處都有消費者評價的時代，如果不想在iBook Store底下看到一顆星評價附帶<strong>「錯字連篇，黑心電子書，大家千萬不要買！」</strong>出版社最好趕緊檢討一下自己的態度。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[關於「Rails101電子書銷售數據」的一些想法]]></title>
-    <link href="http://gamestu.github.io/blog/2013/06/05/thoughts-on-rails101-ebook/"/>
-    <updated>2013-06-05T23:36:59+08:00</updated>
-    <id>http://gamestu.github.io/blog/2013/06/05/thoughts-on-rails101-ebook</id>
-    <content type="html"><![CDATA[<p>最近XDite公佈了兩年來，自助出版Rails 101的一些數據，覺得頗有參考價值，有興趣的可以看原文。</p>
-
-<p>原文連結：<a href="http://blog.xdite.net/posts/2013/06/02/rails-101-some-data/">Rails 101 的兩年來的一些數據</a></p>
-
-<p>我不知道其他出版業界的朋友看了這篇文章會有什麼心得，我還是先記下我自己的好了。</p>
-
-<p>首先Rails101這本電子書，以銷量接近2000本來說，在台灣可說是相當暢銷的電子書了。我想有許多暢銷書做成電子書還未必賣得到這個數量，算是相當不錯的成績。</p>
-
-<p>為什麼會這樣呢？我的意思是，為什麼Rails101在電子書市場上能勝出許多紙本暢銷書呢？</p>
-
-<!-- more -->
-
-
-<p>一般的假設是，如果傳統出版：數位出版大約為10：1。那麼紙書銷量10000本的書，電子書應該預期賣出1000本才合理。也就是說紙書銷量1000本的書，最好根本別做電子書了，穩賠。但Rails101則是明確的告訴我們，並非如此。</p>
-
-<p>首先談談市場需求面。Rails101是一本相對小眾的技術書，而且Rails這技術貌似改版很快，所以一般出版社完全沒興趣，而且走紙書的改版流程大概改到一半，內容就已經過時了。如果今天有某家出版社看到Rails101電子書銷量2000本，做成紙書出版至少也能賣20000本，肯定是腦袋有洞。</p>
-
-<p>所以這是一本不見容於傳統出版的書，唯有數位出版才有機會滿足到該書真正的讀者。</p>
-
-<p>再來看看行銷面。為什麼很多電子書有幾十萬封簡訊加持、公車廣告加上各大平台首頁曝光，也賣不贏一本Rails101呢？簡單來說就是接觸不到目標客戶。或許很多人不認識XDite，但他在Ruby on Rails界算是台灣最知名的人物之一，平常看他Blog的人大約也就是這本書的讀者，所以不需要什麼行銷資源，Blog一貼、FB發個訊息自然就賣得動。</p>
-
-<p>但反過來說，這樣子的Blog不也是在數位出版裡面最重要也最難得的行銷資源嗎。所以問題在於，出版社自己擁有類似的行銷資源嗎？還是只能仰望平台提供撒網式但效果不彰的廣告呢？我相信隨著投入數位出版的出版社越來越多，平台能夠分配給出版社的行銷資源也會越來越少（首頁版面跟讀者注意力都是相當有限的啊啊啊！），老話一句，「人，一定要靠自己」。</p>
-
-<p>最後來談談技術需求。排版顯然是個問題，要產生PDF跟EPUB、Mobi，老實說目前為止仍然沒有一個可被「一般人」接受的軟體。即使是InDesign，如果不會自己寫寫HTML+CSS，轉出來的結果也不會好到哪兒去。Leanpub有辦法輸出三種格式，但前提仍然是你得熟悉他的語法。所以，不要再幻想會有什麼零進入障礙、不用學習、一鍵完成的數位出版工具了，想做數位出版的人就趕快學吧，不管是從InDesign還是HTML開始，都好。</p>
 ]]></content>
   </entry>
   

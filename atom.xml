@@ -4,7 +4,7 @@
   <title><![CDATA[存．文字]]></title>
   <link href="http://gamestu.github.io/atom.xml" rel="self"/>
   <link href="http://gamestu.github.io/"/>
-  <updated>2014-01-17T18:11:02+08:00</updated>
+  <updated>2014-01-18T17:05:30+08:00</updated>
   <id>http://gamestu.github.io/</id>
   <author>
     <name><![CDATA[黃文彥]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[免費好用的EPUB Validator - pagina EPUB-Checker]]></title>
+    <link href="http://gamestu.github.io/blog/2014/01/18/free-epub-validator/"/>
+    <updated>2014-01-18T16:17:24+08:00</updated>
+    <id>http://gamestu.github.io/blog/2014/01/18/free-epub-validator</id>
+    <content type="html"><![CDATA[<p>從EPUB2時代開始，我就一直說讓EPUB能夠通過驗證很重要。現在是更重要了，因為沒有通過驗證的話，是沒辦法將EPUB送到iBookstore或Google上架的。</p>
+
+<p>EPUB2時代，使用Sigil就有內建idpf提供的Validator，按一下就好了，非常方便。但在EPUB3的時代，Sigil就不是個可用的工具，所以如果有一個單純的工具專門做驗證就好了。</p>
+
+<p>於是我找到這個工具，<a href="http://www.pagina-online.de/produkte/epub-checker/" title="pagina EPUB-Checker">pagina EPUB-Checker</a>，免費，穩定，跨平台（提供Mac/Linux/Windows版本）。使用上也非常方便，把做好的EPUB檔拉近程式的框框中就好了。</p>
+
+<p>當然目標「不要做出不能通過validator」的EPUB檔，但以目前的情況來看，有許多軟體本身就還達不到這個標準，而且有時候不得不處理「別人不知道用什麼工具做出來的EPUB檔」，所以一個不依賴任何軟體的validator仍是一個必需的工具，它能夠幫你將問題單純化，任何奇怪的檔案到你手上都可以診斷出問題所在。</p>
+
+<p>其他Validator：</p>
+
+<ol>
+<li><a href="http://validator.idpf.org/" title="IDPF EPUB Validator">IDPF EPUB Validator</a>：算是正宗的，可以從這裡載到validator的原始碼。此外也提供網頁介面供人使用。但限制是有10mb的限制，圖比較多的檔案就會超過。此外，如果是商業使用的檔案，建議不要使用。</li>
+<li><a href="http://validator.cloudapp.net/">台灣數位出版聯盟提供的Validator服務</a>：跟IDPF提供的一樣，有將錯誤訊息做了中文化，如果看不懂英文可以使用。一樣是web服務，所以建議商業檔案還是儘量不要用吧。</li>
+<li><a href="https://itunes.apple.com/au/app/epub-checker/id453480324?mt=12">ePub Checker</a>：是個付費Mac App，原本是打算使用這款，但是Mac升級到Maverick之後就掛掉了Orz。後來發現pagina EPUB-Checker可以完全取代它的功能（還免費），就跟他說掰掰了。</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[開啓iOS上的開發人員選項]]></title>
