@@ -4,7 +4,7 @@
   <title><![CDATA[存．文字]]></title>
   <link href="http://gamestu.github.io/atom.xml" rel="self"/>
   <link href="http://gamestu.github.io/"/>
-  <updated>2014-01-20T01:50:57+08:00</updated>
+  <updated>2014-01-20T02:17:33+08:00</updated>
   <id>http://gamestu.github.io/</id>
   <author>
     <name><![CDATA[黃文彥]]></name>
@@ -12,6 +12,44 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[常在terminal與finder之間切換，你需要這個Alfred workflow]]></title>
+    <link href="http://gamestu.github.io/blog/2014/01/20/alfred-finder-terminal/"/>
+    <updated>2014-01-20T01:54:03+08:00</updated>
+    <id>http://gamestu.github.io/blog/2014/01/20/alfred-finder-terminal</id>
+    <content type="html"><![CDATA[<p>最近開始熟悉terminal的操作，沒辦法實在太多工具是command line tool了。於是發現常常為了在terminal打一個指令，光是在terminal找到資料夾就得花不少時間。或者是terminal已經在這個位置，想用finder打開又要再重新尋找一次。</p>
+
+<p>上網找了一下方法，發現最棒的是這個Alfred的workflow──<a href="https://github.com/LeEnno/alfred-terminalfinder">Alfred terminalfinder</a>。</p>
+
+<!-- more -->
+
+
+<p>使用上非常簡單，只要叫出Alfred，輸入：</p>
+
+<ol>
+<li>ft : 表示finder to terminal，將目前finder的資料夾在terminal打開</li>
+<li>tf : 表示terminal to finder，將目前terminal的資料夾在finder打開</li>
+<li>fi : 如果你是iTerm的愛用者，這是finder to iTerm</li>
+<li>if : iterm to finder。</li>
+</ol>
+
+
+<p>就這樣，非常簡單。</p>
+
+<p>當然Alfred要用到workflow是要花錢的，如果真的不想花錢。</p>
+
+<p>在finder中打開的指令是這樣：</p>
+
+<p><code>open -a Finder ./</code></p>
+
+<p>至於在finder資料夾上按右鍵->open in terminal，可以參考這篇教學：</p>
+
+<p><a href="http://stackoverflow.com/questions/420456/open-terminal-here-in-mac-os-finder">Open terminal here in Mac OS finder</a></p>
+
+<p>Enjoy it.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[免費好用的EPUB Validator - pagina EPUB-Checker]]></title>
