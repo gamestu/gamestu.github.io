@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 網路 | 存．文字]]></title>
   <link href="http://gamestu.github.io/blog/categories/wang-lu/atom.xml" rel="self"/>
   <link href="http://gamestu.github.io/"/>
-  <updated>2014-01-19T13:13:55+08:00</updated>
+  <updated>2014-01-20T01:50:57+08:00</updated>
   <id>http://gamestu.github.io/</id>
   <author>
     <name><![CDATA[黃文彥]]></name>
@@ -21,6 +21,9 @@
     <content type="html"><![CDATA[<p>因為開發Web App的關係，想要知道在網路不穩（例如捷運上）的時候程式會怎麼運作，但是通常網路環境要嘛是很順暢，要嘛是完全沒訊號，總不能為了模擬「斷斷續續的網路環境」帶著電腦上捷運測試吧。</p>
 
 <p>後來發現iOS有提供「開發人員」選項，可以模擬各種環境。但一般機器是找不到這個選項的，到底該怎麼打開呢？</p>
+
+<!-- more -->
+
 
 <ol>
 <li>首先打開Mac上的Xcode。</li>

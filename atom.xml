@@ -4,7 +4,7 @@
   <title><![CDATA[存．文字]]></title>
   <link href="http://gamestu.github.io/atom.xml" rel="self"/>
   <link href="http://gamestu.github.io/"/>
-  <updated>2014-01-19T13:13:55+08:00</updated>
+  <updated>2014-01-20T01:50:57+08:00</updated>
   <id>http://gamestu.github.io/</id>
   <author>
     <name><![CDATA[黃文彥]]></name>
@@ -22,9 +22,12 @@
 
 <p>EPUB2時代，使用Sigil就有內建idpf提供的Validator，按一下就好了，非常方便。但在EPUB3的時代，Sigil就不是個可用的工具，所以如果有一個單純的工具專門做驗證就好了。</p>
 
+<!-- more -->
+
+
 <p>於是我找到這個工具，<a href="http://www.pagina-online.de/produkte/epub-checker/" title="pagina EPUB-Checker">pagina EPUB-Checker</a>，免費，穩定，跨平台（提供Mac/Linux/Windows版本）。使用上也非常方便，把做好的EPUB檔拉近程式的框框中就好了。</p>
 
-<p>當然目標「不要做出不能通過validator」的EPUB檔，但以目前的情況來看，有許多軟體本身就還達不到這個標準，而且有時候不得不處理「別人不知道用什麼工具做出來的EPUB檔」，所以一個不依賴任何軟體的validator仍是一個必需的工具，它能夠幫你將問題單純化，任何奇怪的檔案到你手上都可以診斷出問題所在。</p>
+<p>當然目標是「不要做出不能通過validator」的EPUB檔，但以目前的情況來看，有許多軟體本身就還達不到這個標準，而且有時候不得不處理「別人不知道用什麼工具做出來的EPUB檔」，所以一個不依賴任何軟體的validator仍是一個必需的工具，它能夠幫你將問題單純化，任何奇怪的檔案到你手上都可以診斷出問題所在。</p>
 
 <p>其他Validator：</p>
 
@@ -45,6 +48,9 @@
     <content type="html"><![CDATA[<p>因為開發Web App的關係，想要知道在網路不穩（例如捷運上）的時候程式會怎麼運作，但是通常網路環境要嘛是很順暢，要嘛是完全沒訊號，總不能為了模擬「斷斷續續的網路環境」帶著電腦上捷運測試吧。</p>
 
 <p>後來發現iOS有提供「開發人員」選項，可以模擬各種環境。但一般機器是找不到這個選項的，到底該怎麼打開呢？</p>
+
+<!-- more -->
+
 
 <ol>
 <li>首先打開Mac上的Xcode。</li>
