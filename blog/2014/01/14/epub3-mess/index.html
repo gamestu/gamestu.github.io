@@ -1,0 +1,241 @@
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>EPUB編輯的動亂時代 - 存．文字</title>
+	<meta name="author" content="黃文彥">
+
+	
+	<meta name="description" content="EPUB編輯的動亂時代 EPUB3.0的規格出現也兩三年了，但看看現在業界的編輯流程，仍是一片混亂。混亂的原因很多，姑且記之。 EPUB還年輕 跟其他的標準規格（例如XML、HTML等等）相較起來，EPUB確實還很年輕。HTML的開發工具可以說數都數不完，也有Google、Apple、 &hellip;">
+	
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="存．文字" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://gamestu.github.io/blog/2014/01/14/epub3-mess/">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="/stylesheets/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-6259641-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><div class="profilepic">
+	
+	<script src="/javascripts/md5.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.profilepic').append("<a href='/'><img src='http://www.gravatar.com/avatar/" + MD5("gamestu@gmail.com") + "?s=160' alt='Profile Picture' style='width: 160px;' /></a>");
+		});
+	</script>
+	
+</div>
+
+<nav id="main-nav">
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+</nav>
+</header>				
+			</div>
+			<div class="intrude-less">
+  <section>
+    <h1>最新文章</h1>
+    <ul id="recent_posts">
+      
+        <li class="post">
+          <a href="/blog/2014/02/04/hatter-html-based-epub-editor/">Hatter--熟悉HTML的人使用的EPUB編輯軟體</a>
+        </li>
+      
+        <li class="post">
+          <a href="/blog/2014/01/23/alfred-chrome-bookmark-search-workflow/">用鍵盤就能打開書籤的Alfred Workflow</a>
+        </li>
+      
+        <li class="post">
+          <a href="/blog/2014/01/20/alfred-finder-terminal/">常在terminal與finder之間切換，你需要這個Alfred workflow</a>
+        </li>
+      
+        <li class="post">
+          <a href="/blog/2014/01/18/free-epub-validator/">免費好用的EPUB Validator - pagina EPUB-Checker</a>
+        </li>
+      
+        <li class="post">
+          <a href="/blog/2014/01/17/enable-ios-developer-mode/">開啓iOS上的開發人員選項</a>
+        </li>
+      
+    </ul>
+  </section>
+</div>
+			
+		</div>	
+		<div class="mid-col">
+			
+				
+			
+			<div class="mid-col-container">
+				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name">EPUB編輯的動亂時代</h1>
+	<div class="entry-content" itemprop="articleBody"><p>EPUB3.0的規格出現也兩三年了，但看看現在業界的編輯流程，仍是一片混亂。混亂的原因很多，姑且記之。</p>
+
+<h2>EPUB還年輕</h2>
+
+<p>跟其他的標準規格（例如XML、HTML等等）相較起來，EPUB確實還很年輕。HTML的開發工具可以說數都數不完，也有Google、Apple、Mozilla這些專門做瀏覽器的第一流廠商在開發瀏覽器（咦好像漏了誰）。但EPUB的開發工具卻是寥寥無幾，讓一般人也能用的更可說是絕無僅有，這讓編輯EPUB這項工作本身就不是太容易，即便是程式高手也一樣。</p>
+
+<!-- more -->
+
+
+<h2>主要的EPUB編輯並非程式高手</h2>
+
+<p>電子書的主要來源是出版社，出版社裡面只有編輯，沒有程式高手。編輯會用word，或許也會用InDesign，但不巧Word跟EPUB毫無關聯，InDesign要從紙書編輯的界面，涵蓋輸出EPUB的功能，未必好用。所以即使出現以markdown為主的編輯工具，編輯們仍然可能會說出「什麼是markdown，為什麼不能用word做電子書？」這類的話。</p>
+
+<p>Well，我相信，未來的編輯應該要能掌握新的技術，而不是向舊技術妥協。市場會接納「能掌握新技術並且一個打十個」的編輯，而不是「抱著word做一輩子」的編輯。</p>
+
+<h2>對於EPUB標準的不尊重</h2>
+
+<p>在EPUB還在2.0的時代，台灣應該是Hami最早推出EPUB編輯介面的電子書城。雖然立意良好，卻導致了糟糕的結果。因為輸出的EPUB檔案無法通過EPUB Validator的檢驗。</p>
+
+<p>為什麼這樣很糟糕，因為出版社拿著這些檔案到其它電子書城上架的時候，會發現問題一堆。更不幸的是，早期是出版社有較大的談判能力，不願意將這些EPUB檔案標準化，於是逼得其它電子書城都自行想辦法兼容這些不標準的EPUB檔案。</p>
+
+<p>如此也就罷了，直到最近Apple跟Google也陸續在台灣開放書店服務，而他們不接受<strong>無法通過驗證的EPUB檔案</strong>，當然「為了台灣出版社擁有的一些書放寬標準」是不可能發生在這些公司身上的。</p>
+
+<p>所以現在出版社不只是要從EPUB2轉成EPUB3，還要處理一開始得過且過所累積下來的業障。</p>
+
+<h2>對於EPUB的標準流程尚未建立</h2>
+
+<p>以目前的狀況來說，EPUB是一個最終產物，是個結果。但源頭卻是千奇百怪。有PDF的、有Word的、有InDesign的、有紙書掃描的圖檔、有古早的Quark的&hellip;。「從無到有寫出一本電子書」的「寫作工具」，也和「拿到作者文檔修改潤飾」的「編輯工具」需求也不相同。大公司要「量產」的做法和小公司「精品化」的做法，自然也有不同。</p>
+
+<p>所以即使工具很多，隨著來源不同、身份不同、內建知識不同，便有各種不同的適用工具。因此想要建立像紙書一般的「產業標準作業流程」在目前來看還是不大可能的。也許在Apple、Google開放電子書服務之後，出版業開始向「標準EPUB 3」的目標靠攏，經過一開始的陣痛期後，就會比較容易浮現出所謂的「產業標準作業流程」吧。</p>
+
+<h2>結語</h2>
+
+<p>雖然目前場面很混亂，EPUB的底層還是不變的，認識EPUB真正的結構，不管用什麼癟腳工具都可以完成工作，而且對於找出貴公司的最佳作業流程會有很大的幫助。</p>
+</div>
+
+</article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+</div>
+			</div>
+			<footer id="footer" class="inner"><p class="pull-left">
+  <a href="/">存．文字</a>
+  - Copyright &copy; 2014 - 黃文彥
+</p>
+<p class="pull-right">
+  <span>Powered by <a href="http://octopress.org/">Octopress</a>.</span>
+  
+    <span>Designed by <a href="http://www.AdrianArtiles.com">Adrian Artiles</a>.</span>
+  
+</p>
+
+Design credit: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Shashank Mehta</a></footer>
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script>window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.7.2.min.js" type="text/javascript"><\/script>')</script>
+<script src="/javascripts/libs/bootstrap.min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.tweet.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.instagram.js" type="text/javascript"></script>
+<script src="/javascripts/libs/jquery.masonry.min.js" type="text/javascript"></script>
+<script src="/javascripts/custom.js" type="text/javascript"></script>
+
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+		</div>
+	</div>
+</body>
+</html>

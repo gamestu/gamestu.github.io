@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 數位出版 | 存．文字]]></title>
+  <link href="http://gamestu.github.io/blog/categories/shu-wei-chu-ban/atom.xml" rel="self"/>
+  <link href="http://gamestu.github.io/"/>
+  <updated>2014-02-04T14:54:25+08:00</updated>
+  <id>http://gamestu.github.io/</id>
+  <author>
+    <name><![CDATA[黃文彥]]></name>
+    <email><![CDATA[gamestu@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hatter--熟悉HTML的人使用的EPUB編輯軟體]]></title>
+    <link href="http://gamestu.github.io/blog/2014/02/04/hatter-html-based-epub-editor/"/>
+    <updated>2014-02-04T14:44:05+08:00</updated>
+    <id>http://gamestu.github.io/blog/2014/02/04/hatter-html-based-epub-editor</id>
+    <content type="html"><![CDATA[<p>來介紹一款名為Hatter的Mac軟體，<a href="https://itunes.apple.com/tw/app/hatter/id599454393?l=zh&amp;mt=12">購買連結</a>。</p>
+
+<p>Hatter最適合給熟悉HTML的人使用，介面堪稱「極簡」，就只有一個空白頁面讓你貼進HTML而已XD。</p>
+
+<p>雖然畫面極簡，功能倒是都做在最關鍵最省時的事情上面。</p>
+
+<ol>
+<li>HTML裡的<code>&lt;p&gt;</code>不用打，會自動幫你加上。（跟markdown一樣）那些擾人的放在head裡的「雜物」當然也無需理會，專注在內容就好了。</li>
+<li>常用的標籤（h1, h2, br, blockquote, a）都有預設的快捷鍵，進階的使用者也可以自訂常用的HTML片段（例如帶有特殊class的p或div），再對應快捷鍵。</li>
+<li>自動產生封面與目錄，封面只要指定一張圖片，目錄會依照你指定的h1來輸出（看來沒辦法指定到第幾層）。也通通都不用自己打HTML。</li>
+<li>進階使用者可以自訂CSS。</li>
+<li>最特別的是可以打個勾輸出直排中文EPUB檔。</li>
+<li>輸出的EPUB檔案可通過EPUB Validator。</li>
+</ol>
+
+
+<p>不過有個BUG是要把它提供的<strong>Smart Quote</strong>功能關掉。這功能會自動把引號改成全形導致HTML出錯XD。</p>
+
+<p>整體來說，經過調校後可以變成非常好用而且節省時間的編輯工具，讓你把時間花在內容上。缺點大概就是介面陽春了點，還有說明文件只有一個長長的文檔要認真讀一下吧XD。</p>
+
+<p>Hatter是<strong>「編輯工具」</strong>而非<strong>「寫作工具」</strong>，如果你面對的是作者寫好的文檔（例如已經出過紙書要做EPUB）是很合適的，Hatter讓你用最有效率的方式插入HTML。但若是想「寫作」，又想不時輸出EPUB來看看成果，還是找個介面順眼的軟體吧（我會推薦<a href="http://www.ulyssesapp.com/">Ulysses</a>）。當然，你也可以用Word寫好全部的文字，再把文字貼進Hatter編輯，隨你高興囉。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[免費好用的EPUB Validator - pagina EPUB-Checker]]></title>
+    <link href="http://gamestu.github.io/blog/2014/01/18/free-epub-validator/"/>
+    <updated>2014-01-18T16:17:24+08:00</updated>
+    <id>http://gamestu.github.io/blog/2014/01/18/free-epub-validator</id>
+    <content type="html"><![CDATA[<p>從EPUB2時代開始，我就一直說讓EPUB能夠通過驗證很重要。現在是更重要了，因為沒有通過驗證的話，是沒辦法將EPUB送到iBookstore或Google上架的。</p>
+
+<p>EPUB2時代，使用Sigil就有內建idpf提供的Validator，按一下就好了，非常方便。但在EPUB3的時代，Sigil就不是個可用的工具，所以如果有一個單純的工具專門做驗證就好了。</p>
+
+<!-- more -->
+
+
+<p>於是我找到這個工具，<a href="http://www.pagina-online.de/produkte/epub-checker/" title="pagina EPUB-Checker">pagina EPUB-Checker</a>，免費，穩定，跨平台（提供Mac/Linux/Windows版本）。使用上也非常方便，把做好的EPUB檔拉近程式的框框中就好了。</p>
+
+<p>當然目標是「不要做出不能通過validator」的EPUB檔，但以目前的情況來看，有許多軟體本身就還達不到這個標準，而且有時候不得不處理「別人不知道用什麼工具做出來的EPUB檔」，所以一個不依賴任何軟體的validator仍是一個必需的工具，它能夠幫你將問題單純化，任何奇怪的檔案到你手上都可以診斷出問題所在。</p>
+
+<p>其他Validator：</p>
+
+<ol>
+<li><a href="http://validator.idpf.org/" title="IDPF EPUB Validator">IDPF EPUB Validator</a>：算是正宗的，可以從這裡載到validator的原始碼。此外也提供網頁介面供人使用。但限制是有10mb的限制，圖比較多的檔案就會超過。此外，如果是商業使用的檔案，建議不要使用。</li>
+<li><a href="http://validator.cloudapp.net/">台灣數位出版聯盟提供的Validator服務</a>：跟IDPF提供的一樣，有將錯誤訊息做了中文化，如果看不懂英文可以使用。一樣是web服務，所以建議商業檔案還是儘量不要用吧。</li>
+<li><a href="https://itunes.apple.com/au/app/epub-checker/id453480324?mt=12">ePub Checker</a>：是個付費Mac App，原本是打算使用這款，但是Mac升級到Maverick之後就掛掉了Orz。後來發現pagina EPUB-Checker可以完全取代它的功能（還免費），就跟他說掰掰了。</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[EPUB編輯的動亂時代]]></title>
+    <link href="http://gamestu.github.io/blog/2014/01/14/epub3-mess/"/>
+    <updated>2014-01-14T20:44:33+08:00</updated>
+    <id>http://gamestu.github.io/blog/2014/01/14/epub3-mess</id>
+    <content type="html"><![CDATA[<p>EPUB3.0的規格出現也兩三年了，但看看現在業界的編輯流程，仍是一片混亂。混亂的原因很多，姑且記之。</p>
+
+<h2>EPUB還年輕</h2>
+
+<p>跟其他的標準規格（例如XML、HTML等等）相較起來，EPUB確實還很年輕。HTML的開發工具可以說數都數不完，也有Google、Apple、Mozilla這些專門做瀏覽器的第一流廠商在開發瀏覽器（咦好像漏了誰）。但EPUB的開發工具卻是寥寥無幾，讓一般人也能用的更可說是絕無僅有，這讓編輯EPUB這項工作本身就不是太容易，即便是程式高手也一樣。</p>
+
+<!-- more -->
+
+
+<h2>主要的EPUB編輯並非程式高手</h2>
+
+<p>電子書的主要來源是出版社，出版社裡面只有編輯，沒有程式高手。編輯會用word，或許也會用InDesign，但不巧Word跟EPUB毫無關聯，InDesign要從紙書編輯的界面，涵蓋輸出EPUB的功能，未必好用。所以即使出現以markdown為主的編輯工具，編輯們仍然可能會說出「什麼是markdown，為什麼不能用word做電子書？」這類的話。</p>
+
+<p>Well，我相信，未來的編輯應該要能掌握新的技術，而不是向舊技術妥協。市場會接納「能掌握新技術並且一個打十個」的編輯，而不是「抱著word做一輩子」的編輯。</p>
+
+<h2>對於EPUB標準的不尊重</h2>
+
+<p>在EPUB還在2.0的時代，台灣應該是Hami最早推出EPUB編輯介面的電子書城。雖然立意良好，卻導致了糟糕的結果。因為輸出的EPUB檔案無法通過EPUB Validator的檢驗。</p>
+
+<p>為什麼這樣很糟糕，因為出版社拿著這些檔案到其它電子書城上架的時候，會發現問題一堆。更不幸的是，早期是出版社有較大的談判能力，不願意將這些EPUB檔案標準化，於是逼得其它電子書城都自行想辦法兼容這些不標準的EPUB檔案。</p>
+
+<p>如此也就罷了，直到最近Apple跟Google也陸續在台灣開放書店服務，而他們不接受<strong>無法通過驗證的EPUB檔案</strong>，當然「為了台灣出版社擁有的一些書放寬標準」是不可能發生在這些公司身上的。</p>
+
+<p>所以現在出版社不只是要從EPUB2轉成EPUB3，還要處理一開始得過且過所累積下來的業障。</p>
+
+<h2>對於EPUB的標準流程尚未建立</h2>
+
+<p>以目前的狀況來說，EPUB是一個最終產物，是個結果。但源頭卻是千奇百怪。有PDF的、有Word的、有InDesign的、有紙書掃描的圖檔、有古早的Quark的&hellip;。「從無到有寫出一本電子書」的「寫作工具」，也和「拿到作者文檔修改潤飾」的「編輯工具」需求也不相同。大公司要「量產」的做法和小公司「精品化」的做法，自然也有不同。</p>
+
+<p>所以即使工具很多，隨著來源不同、身份不同、內建知識不同，便有各種不同的適用工具。因此想要建立像紙書一般的「產業標準作業流程」在目前來看還是不大可能的。也許在Apple、Google開放電子書服務之後，出版業開始向「標準EPUB 3」的目標靠攏，經過一開始的陣痛期後，就會比較容易浮現出所謂的「產業標準作業流程」吧。</p>
+
+<h2>結語</h2>
+
+<p>雖然目前場面很混亂，EPUB的底層還是不變的，認識EPUB真正的結構，不管用什麼癟腳工具都可以完成工作，而且對於找出貴公司的最佳作業流程會有很大的幫助。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[關於「電子書不只是紙書的電子化」的一些想法]]></title>
+    <link href="http://gamestu.github.io/blog/2013/08/11/thoughts-on-ebook-is-not-digitalized-paperbook/"/>
+    <updated>2013-08-11T23:44:35+08:00</updated>
+    <id>http://gamestu.github.io/blog/2013/08/11/thoughts-on-ebook-is-not-digitalized-paperbook</id>
+    <content type="html"><![CDATA[<p>在討論電子書的時候呢，常常看到有人喜歡將電子書無限上綱。每次看到有人說「電子書不只是紙書的電子化」我心裡就會OS「開始了開始了」。接下來話題如何發展，就要看發言人的「目的」。</p>
+
+<!-- more -->
+
+
+<p>做App的會說，App是電子書、做網站的會說，網站也是電子書、做遊戲的說遊戲是電子書，看他想賣什麼，什麼就是書。更常見的是打嘴砲的，音樂電影電視劇照片短文長文你想得到的內容通通都是書，正所謂心中有書，看什麼都是書。但定義越廣就越沒法討論，正中嘴砲人之下懷。</p>
+
+<p>我說，每一部作品都有其獨特的命運。它天生的題材、擁有的預算、受歡迎的程度、社會對各種形式的接受度等等，決定了一本書「應該」以什麼形式、「最後」以什麼形式被閱讀。書差不多就是這麼回事，那些「電子書就應該怎樣怎樣」的論述其實是無意義兼無聊的。</p>
+
+<p>有些書就只適合印在紙上，那也沒啥不好。有些書也只適合「只是紙書的電子化」，那更是沒什麼不好。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[在Book11關站之後...]]></title>
+    <link href="http://gamestu.github.io/blog/2013/07/10/after-book11-shut-down/"/>
+    <updated>2013-07-10T20:44:33+08:00</updated>
+    <id>http://gamestu.github.io/blog/2013/07/10/after-book11-shut-down</id>
+    <content type="html"><![CDATA[<p>今天，台灣一家比較早期的電子書城Book11宣布即將關站了。</p>
+
+<p>四年前，台灣的電子書市場（嚴格說來，還沒有所謂「市場」），還只知道有Amazon Kindle，沒聽過iPad，也沒有EPUB的時代。當年，所有人都認為，做一台Kindle不難，不就是台沒啥技術門檻的硬體嗎？但大家也都知道，沒有內容，電子書什麼也不是，平台一家一家開，格式也亂七八糟（PDF還是主流）。Book11大約就是這個時代之下的產物。</p>
+
+<!-- more -->
+
+
+<p>作為一家電子書平台，有三大難處，沒硬體、沒內容、沒客戶。硬體的部分，Book11曾經很認真的跟國外硬體買了好幾台「i讀機」來賣，但售價不得了，將近新台幣兩萬元的E-ink閱讀器。這種價格的結果自然不必說了，更慘的是連國外生產這台機器的廠商都宣告破產。後來Book11再接再厲，跟對岸（當年）第一電子書硬體品牌漢王合作，但也合作沒多久發現對岸的電子書榮景也只是一次泡沫，大家買來只是當禮物，不是自用，實際上跟月餅差不多。總之在硬體這方面，Book11的兩次嘗試都是不了了之。後來的故事大家很清楚了，iPad稱霸全球，Android後來居上，開發個App就好，專屬硬體實為不智之舉。</p>
+
+<p>另一大難題是內容。平台要搜集內容可說是極度艱辛的任務，尤其在當年，出版社心中根本沒有EPUB這種標準格式，就算聽過，也沒人會做。在出版社全面保守的風氣之下，能夠簽約拿到PDF已經令人痛哭流涕了。但這樣的數量對平台來說遠遠不足以吸引到讀者，怎麼辦呢？</p>
+
+<p>此時Book11走了一步險棋，直接向日本出版社代理最小眾、最Niche、也最適合電子書私密性質的品項，「A漫」。自此Book11完全轉型為色情電子書店，連粉絲團跟部落格都充斥著濃濃的色色的味道&hellip;。</p>
+
+<p>我覺得這步棋沒什麼不對，這些品項有特色、有需求，而且情慾官能的內容一直是網路消費內容的大宗。然而負面效果也是有，影響最深遠的大概就是導致「正經的出版社」不太與之合作了吧。試想，你明明出的是一本兒童繪本，旁邊卻擺一本A漫，成何體統呢？</p>
+
+<p>於是Book11走上了「注定小眾」的道路，而這些小眾顯然不足以支撐一個功能完整的電子書城&hellip;。</p>
+
+<p>老實說，我對於Book11的印象並不壞，技術也不差（Web、桌面、App都有相應的軟體），曾聽過執行長演講，感受得到是位有衝勁的創業家。真要說做錯了什麼，大概也就是太早出發了吧&hellip;。（這故事告訴我們先進者真的沒有優勢，只是前浪死在沙灘上，後人根本不知道而已）</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 一些想法 | 存．文字]]></title>
+  <link href="http://gamestu.github.io/blog/categories/[?]-xie-xiang-fa/atom.xml" rel="self"/>
+  <link href="http://gamestu.github.io/"/>
+  <updated>2014-02-04T14:54:25+08:00</updated>
+  <id>http://gamestu.github.io/</id>
+  <author>
+    <name><![CDATA[黃文彥]]></name>
+    <email><![CDATA[gamestu@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[關於「UPUP舉手小人圖片產生器」熱潮的一些想法]]></title>
+    <link href="http://gamestu.github.io/blog/2013/06/01/thoughts-on-upup-image/"/>
+    <updated>2013-06-01T23:38:56+08:00</updated>
+    <id>http://gamestu.github.io/blog/2013/06/01/thoughts-on-upup-image</id>
+    <content type="html"><![CDATA[<p><img src="https://dl.dropboxusercontent.com/u/5056599/blogimage/upup.jpg" alt="UPUP-我的手好痠，可以放下來了嗎？" /></p>
+
+<p>這兩天，這個<a href="http://zeczec.haniboi.com/">舉手小人產生器</a>突然好紅，整個Facebook的Timeline三不五時就會看到一張新的梗。</p>
+
+<p>網路世界就是這麼奇妙，不知道哪一天哪個時點哪個梗會得到全網路的青睞，然後爆炸。還記得去年有個<a href="http://xx52003.myweb.hinet.net/backup.htm">淡定紅茶</a>嗎？突然一個下午全台灣都知道「淡定」一詞了，還多了個淡定表情符號ˊ_>ˋ，莫名其妙。</p>
+
+<!-- more -->
+
+
+<p>UPUP的使用經驗確實還不錯。設計滿可愛的，打字即時產生圖片也很順暢。不過產生圖片的Size，可以選擇Facebook的封面圖片，這點倒是滿有概念的。打一句喜歡的話，就有一張封面圖片可以放，一整個方便。</p>
+
+<p>很多人其實很苦惱Facebook封面要擺什麼圖啊，光是大頭照要擺張英俊漂亮能看的都很傷神了，還多一個更大的圖片要煩惱真的是很夭壽。產生了這個封面，看來不只是個人用戶受惠，連很多粉絲團也紛紛採用UPUP來產生粉絲團封面。這對UPUP的病毒傳播應該還滿有幫助的啊！</p>
+
+<p>話雖如此，網路熱潮這種東西就像過眼雲煙，期望一個有趣的玩具能夠吸引大眾注意力超過一個星期都是太奢侈的想法。我猜再過兩天大家就會當他沒發生過，或是FB封面產生器越來越多，多到大家忘記一開始有個UPUP。</p>
+
+<p>Anyway，UPUP終究是在網路創造出一點聲音，這對開發團隊來說我想就夠了。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[關於「封鎖境外侵權網站」的一些想法]]></title>
+    <link href="http://gamestu.github.io/blog/2013/05/29/thoughs-on-the-freedom-of-speech/"/>
+    <updated>2013-05-29T20:44:33+08:00</updated>
+    <id>http://gamestu.github.io/blog/2013/05/29/thoughs-on-the-freedom-of-speech</id>
+    <content type="html"><![CDATA[<p>身為一個數位內容的業者，境外侵權網站（理所當然的）對營收多少會有些影響。但是要讓政府／智財局來決定哪些網站侵權、是否封鎖，那可真是本末倒置，因噎廢食，為了一些營收而犧牲言論自由的悲劇。</p>
+
+<p>有些人一定會覺得「想太多」、「危言聳聽」，我相信我小時候可能也會覺得<strong>「這是大有為政府應該做的」</strong>、<strong>「盜版當然不對，封鎖也只是剛好」</strong>。現在想想，還真是天真。</p>
+
+<!-- more -->
+
+
+<p>老實說，我相信這些去遊說的業者，也許真的是受不了盜版猖獗，希望政府給予一些制裁，心裡可能也會想「我就只是希望封鎖一兩個特別超過的網站，殺雞儆猴一下」，立意尚稱良善。</p>
+
+<p>但，我們沒辦法永遠期待握有權力的人都會「立意良善」。先不提政府是否會藉此實行言論管制（畢竟憲法還明定了保障言論自由），你對於擁有許多法律資源的財團企業也能有同樣的信心嗎？</p>
+
+<p>在資本主義社會裡，真正的掌權者早已不是各國政府，而是規模大到難以想像的跨國企業，不僅不用理會當地法律，更可能自己訂定遊戲規則（例如用一些公關手法來引導政策制定之類）。此例一開，未來所有的小網站都有機會因為一點著作權的瑕疵（你在網路上轉錄分享的照片，注意過是否有CC授權嗎？）而被封鎖。輕則扼殺創新，重則大家只能看到政府／財團「允許」你看的資訊。活脫就是一九八四所描繪的場景。</p>
+
+<p>歷史絕對有可能走回頭路，即便是自由民主的美國，都已經有許多聲音，陳述著「只能聽財團讓你聽的、看財團讓你看的、吃財團讓你吃的」。真的自由了嗎？接受別人賜與的選擇不叫自由，自己決定有哪些選擇才叫自由。</p>
+
+<p>所以，關於「封鎖境外侵權網站」，沒什麼好說的，反對到底就是了。</p>
+
+<ol>
+<li><a href="http://n.yam.com/newtalk/life/20130528/20130528516104.html">不理反彈 智財局：「節制」封鎖侵權網站</a></li>
+<li><a href="http://yowureport.com/?p=6824">智財局擬修法封鎖境外侵權網站：違憲、危險、愚蠢</a></li>
+<li><a href="http://thenextweb.com/asia/2013/05/28/taiwan-proposes-china-style-block-on-overseas-internet-services-that-infringe-copyright/">Taiwan proposes China-style block on overseas Internet services that infringe copyright</a></li>
+<li><a href="http://www.leiphone.com/s-taiwan-proposes-china-style-block-on-overseas-internet-services-that-infringe-copyright.html">台湾跟随祖国步伐建立防火墙</a></li>
+<li><a href="http://www.giddens.tw/blog/post/39197567">有些未來，連一步都不能接近 &ndash; 九把刀</a></li>
+<li><a href="http://goo.gl/E2csd">维基百科:抗議經濟部智慧財產局研擬封鎖境外侵權網站行動</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

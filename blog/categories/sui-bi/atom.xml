@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 隨筆 | 存．文字]]></title>
+  <link href="http://gamestu.github.io/blog/categories/sui-bi/atom.xml" rel="self"/>
+  <link href="http://gamestu.github.io/"/>
+  <updated>2014-02-04T14:54:25+08:00</updated>
+  <id>http://gamestu.github.io/</id>
+  <author>
+    <name><![CDATA[黃文彥]]></name>
+    <email><![CDATA[gamestu@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Back to Octopress.]]></title>
+    <link href="http://gamestu.github.io/blog/2014/01/14/my-first-post-on-octopress/"/>
+    <updated>2014-01-14T01:17:25+08:00</updated>
+    <id>http://gamestu.github.io/blog/2014/01/14/my-first-post-on-octopress</id>
+    <content type="html"><![CDATA[<p>好久以前有用過Octopress，繞了一圈又回來了。</p>
+
+<p>過一陣子把calepin上的文章再搬回來吧（其實只是從Dropbox移到隔壁資料夾而已。）</p>
+
+<p>先留作紀念。</p>
+]]></content>
+  </entry>
+  
+</feed>
